@@ -1,0 +1,7 @@
+The 3 Core Heuristics:
+
+o Hierarchical Separator Priority (Semantic Cohesion): Attempts to split along the largest semantic units first (\n\n $\rightarrow$ \n $\rightarrow$ $\rightarrow$ "") so that paragraphs, sentences, and words stay intact whenever possible.
+
+o Recursive Decomposition (Chunk Size Constraint): If any individual split exceeds chunk_size, it recursively falls back to the next finer separator in the hierarchy until pieces fit within the size limit.
+
+o Sliding Window Merging with Overlap: Merges smaller adjacent pieces together up to chunk_size, maintaining a specified chunk_overlap from the end of the previous chunk to ensure contextual continuity across chunk boundaries.

@@ -1,0 +1,47 @@
+Chosen Use Case: Internal Customer Support AI Assistant 
+
+1. Ideation
+What happens: The team identifies that support reps spend too much time searching manual docs, so we brainstorm an AI assistant to fetch policy answers quickly.
+
+Key Artifact: Project One-Pager / Idea Proposal
+
+2. Intake
+What happens: We submit the project scope, required document permissions, and estimated ROI to the AI review board for official approval.
+
+Key Artifact: AI Intake & Business Case Form
+
+3. Risk Tiering
+What happens: Compliance and security review the system's data access and classify it as Medium Risk since it handles internal company knowledge.
+
+Key Artifact: Risk Classification Scorecard
+
+4. Design
+What happens: Architects map out the retrieval pipeline (RAG), choose the foundation model, and define user access controls and fallback rules.
+
+Key Artifact: Technical Architecture & Threat Model
+
+5. Build
+What happens: Developers index the documents, write system prompts, connect the backend APIs, and set up input/output guardrails.
+
+Key Artifact: Code Repository & Guardrail Test Suite
+
+6. Validate
+What happens: A separate QA team tests the assistant against ground-truth answers, checks hallucination rates, and runs prompt-injection tests.
+
+Key Artifact: Independent Model Validation Report
+
+7. Deploy
+What happens: The tool goes live first for a small pilot group of support staff before rolling out to the broader team.
+
+Key Artifact: Deployment Runbook & Release Sign-off
+
+8. Monitor
+What happens: The team actively tracks user feedback ratings, latency, token spend, and checks if data or query patterns drift over time.
+
+Key Artifact: Observability Dashboard & Weekly Metric Logs
+
+9. Retire
+What happens: When the tool is replaced or phased out, the team shuts down servers, revokes API keys, and archives chat logs per company policy.
+
+Key Artifact: Decommissioning Sign-off & Archival Checklist
+

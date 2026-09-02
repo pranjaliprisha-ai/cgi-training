@@ -1,0 +1,8 @@
+Answer 3
+
+Risk Tiering followed by Design should be revisited because granting write-access might convert the application from a read-only assistant into an autonomous transactional agent. 
+
+Answer 4
+
+Business Owner / Product Owner would be the owner. 
+An owner is required to eliminate "Zombie" Risk & Liability, Manage Downstream Dependencies and Decommission Infrastructure & Access
